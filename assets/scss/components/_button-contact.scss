@@ -1,0 +1,19 @@
+@use "../abstract/variable" as *;
+
+.btn {
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    background-color: map-get($theme-color, "accent" );
+    font-size: 0.6rem;
+}
+
+.btn:hover {
+    background-color: map-get($theme-color , "primary" );
+}
+
+.btn-contact-us {
+    margin-left: 2rem ;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}

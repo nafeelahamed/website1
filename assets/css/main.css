@@ -1,1 +1,98 @@
+/* font */
+/* colors */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.font-ta {
+  font-family: "Mukta Malar", sans-serif;
+}
+
+.color-anim {
+  animation: color-change 10s infinite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid black;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+.header__container .header__menus {
+  display: flex;
+  align-items: center;
+}
+.header__container .header__menus ul {
+  display: flex;
+}
+.header__container .header__menus ul li {
+  margin-left: 2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.header__container .header__menus ul li a {
+  color: #3f43fd;
+}
+.header__container .header__menus ul li a.active {
+  color: red !important;
+}
+.header__container .header__menus ul li a:hover {
+  color: #9673fd;
+}
+.header__container .header__logo h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  25% {
+    color: purple;
+  }
+  50% {
+    color: blue;
+  }
+  75% {
+    color: green;
+  }
+  100% {
+    color: red;
+  }
+}
+.btn {
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  background-color: #020710;
+  font-size: 0.6rem;
+}
+
+.btn:hover {
+  background-color: #3f43fd;
+}
+
+.btn-contact-us {
+  margin-left: 2rem;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=main.css.map */

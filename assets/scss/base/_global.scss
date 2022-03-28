@@ -1,0 +1,17 @@
+@use "../abstract/variable" as *;
+
+.container {
+    width: $container-width-lg;
+    margin: 0 auto;
+
+}
+
+.font-ta {
+    font-family: $font-mukta-tamil;
+}
+
+.color-anim {
+    // transition: 2s;
+    animation: color-change 10s infinite;
+    
+}
